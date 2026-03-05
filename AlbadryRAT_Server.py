@@ -1,10 +1,10 @@
 import socket
 import sys
 print(f"                   ___________________________")
-print(f"                  |***************************|")
-print(f"                  |***Welcome to AlbadryRAT***|")
-print(f"                  |***************************|")
-print(f"                  |*****Discord: albadry_01***|")
+print(f"                  |                           |")
+print(f"                  |   Welcome to AlbadryRAT   |")
+print(f"                  |                           |")
+print(f"                  |     Discord: albadry_0    |")
 print(f"                  |___________________________|")
 
 server_ip = "127.0.0.1"
@@ -36,4 +36,5 @@ while True:
         break
     
 s.close()
+
 
