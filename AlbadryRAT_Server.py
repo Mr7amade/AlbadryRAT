@@ -31,8 +31,7 @@ while True:
     
     client = s.accept()
     print(f'[+] New Client! {client[1]}')
-    system_data = get_system_info()
-    client[0].send(system_data.encode())
+    client[0].send("Connected".encode())
     while True:
         cmd = input(">>> ")
         client[0].send(cmd.encode())
@@ -47,3 +46,4 @@ while True:
         break
     
 s.close()
+
