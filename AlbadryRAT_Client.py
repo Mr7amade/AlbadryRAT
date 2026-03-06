@@ -1,6 +1,16 @@
 import sys
 import socket
 import subprocess
+import platform
+
+
+def get_system_info():
+    info = f"""
+    [+] Operating System: {platform.system()}
+    [+] OS Release: {platform.release()}
+    [+] Processor: {platform.processor()}
+    """
+    return info
 
 server_ip = "127.0.0.1"
 port = 8080
